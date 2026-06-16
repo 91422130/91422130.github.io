@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高雄地標之旅</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>高雄地標之旅</h1>
+  <p>探索港都三大經典景點</p>
+  <p style="margin-top:12px; font-size:0.95em; opacity:0.7;">91422130 田欣</p>
+</header>
+
+<nav>
+  <a href="index.html">首頁</a>
+  <a href="weiwuying.html">衛武營國家藝術文化中心</a>
+  <a href="lotus-pond.html">蓮池潭</a>
+  <a href="85-tower.html">85大樓</a>
+  <a href="learning.html">學習心得</a>
+</nav>
+
+<div class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/kaohsiung-hero.jpg'); background-color: #2c3e50;">
+  <h2>三大必訪地標</h2>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">精選景點</h2>
+    <div class="card-grid">
+
+      <div class="card">
+        <div class="card-img" style="background-image: url('images/衛武營.png'); background-color: #4a7c59;">
+          <span>衛武營國家藝術文化中心</span>
+        </div>
+        <div class="card-body">
+          <h3>衛武營國家藝術文化中心</h3>
+          <p>全台最大單一屋頂表演藝術中心，白色波浪造型宛如太空船，TIME雜誌2019全球百大景點。</p>
+          <a href="weiwuying.html" class="btn">進入景點</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-image: url('images/蓮池潭.png'); background-color: #2d6a4f;">
+          <span>蓮池潭風景區</span>
+        </div>
+        <div class="card-body">
+          <h3>蓮池潭風景區</h3>
+          <p>清代鳳山八景之一，龍虎塔、春秋閣、孔廟等廟宇建築群，展現台灣宗教文化之美。</p>
+          <a href="lotus-pond.html" class="btn">進入景點</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img" style="background-image: url('images/85大樓.png'); background-color: #34495e;">
+          <span>高雄85大樓</span>
+        </div>
+        <div class="card-body">
+          <h3>高雄85大樓</h3>
+          <p>南台灣最高摩天大樓，378公尺「高」字造型地標，45秒高速電梯直衝天際。</p>
+          <a href="85-tower.html" class="btn">進入景點</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;">
+  <div class="container">
+    <h2 class="section-title">高雄旅遊數字</h2>
+    <div class="index-stats">
+      <div class="index-stat-card">
+        <span class="index-stat-number">3</span>
+        <span class="index-stat-label">精選地標</span>
+      </div>
+      <div class="index-stat-card">
+        <span class="index-stat-number">378m</span>
+        <span class="index-stat-label">最高建築</span>
+      </div>
+      <div class="index-stat-card">
+        <span class="index-stat-number">300+</span>
+        <span class="index-stat-label">年歷史底蘊</span>
+      </div>
+      <div class="index-stat-card">
+        <span class="index-stat-number">24h</span>
+        <span class="index-stat-label">全天候可遊</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">最佳旅遊季節</h2>
+    <div class="season-grid">
+      <div class="season-card">
+        <h4>春秋（10～4月）— 推薦</h4>
+        <p>高雄氣候宜人，陽光溫和，最適合戶外走訪。蓮池潭環湖步道舒適愜意，衛武營戶外劇場常有演出活動。</p>
+      </div>
+      <div class="season-card">
+        <h4>夏季（5～9月）</h4>
+        <p>午後偶有雷陣雨，建議攜帶雨具。85大樓室內觀景不受天氣影響，傍晚港灣夕陽尤為壯麗。</p>
+      </div>
+      <div class="season-card">
+        <h4>交通建議</h4>
+        <p>高雄捷運紅橘線串聯三大地標，搭配 YouBike 與輕軌可輕鬆抵達各站。建議使用高雄 iBus APP 查詢即時公車資訊。</p>
+      </div>
+      <div class="season-card">
+        <h4>旅遊小提醒</h4>
+        <p>高雄全年高溫，注意防曬補水。各景點假日人潮較多，建議平日造訪可獲得更佳的旅遊品質。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>高雄地標之旅 &copy; 2026 | 圖片請自行置於 <code>images/</code> 目錄</p>
+  </div>
+</footer>
+
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
+
+<script>
+window.addEventListener('scroll', function(){
+  document.querySelector('.back-to-top').classList.toggle('show', window.scrollY > 400);
+});
+</script>
+
+</body>
+</html>
